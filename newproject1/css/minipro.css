@@ -1,0 +1,373 @@
+.body{
+	background-color: white;
+}
+button{
+ border: none;
+ outline: none;
+}
+.logo{
+	width: 150px;
+	margin: 5px 5px;                    
+}
+.C{
+  width: 50%
+}
+header{
+  width: 100%;
+  
+}
+.button{
+	background-color: #ff7b25;
+	margin-right: 5px;
+	padding: 2px 2px ;
+	font-size: 17px;
+
+
+  width: calc(25% - 8px);
+}
+.button a{
+	color: black;
+	text-decoration: none;
+  font-size:15px;
+  }
+.button a{
+  font-style: solid;
+}
+
+
+
+}
+.C .button{
+	background-color: white;
+}
+/*style button paragraphe */
+.button1 a{
+  color: black;
+  text-decoration: none;
+  background-color:
+  }
+.container .left .button1 a h3{
+	font-size: 15px;
+	padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  text-decoration: none;
+  background-color: #ff7b25;
+  font-size: 15px;
+  font-style: solid;
+  border:;
+  text-align: none ;
+   
+   
+}
+  /*style button paragraphe 
+.button1 a h3{
+	color: black;
+	text-decoration: none;
+  background-color: pink;
+  font-size: 15px;
+  font-style: solid;
+  border:solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 20px;
+   
+
+}*/
+.button1:hover{
+	background-color: white;
+  background-color:
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container{
+	width:100%;
+	height: 40%;
+	background-color:;
+	display: flex;
+	justify-content: space-between;
+}
+.container2{
+	width:100%;
+	height: 40%;
+	background-color:;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .left{
+   padding: 20px;
+   width: 50%;
+   height: 100%;
+   background-color: ;
+
+}
+.container .left p{
+
+  text-align: justify;
+  
+}
+}
+.container .left h2{
+
+  text-align: justify;
+  
+}
+.container .right{
+   width: 900px;
+   height: 600px;
+   background-color:;
+
+}
+.container2 .right {
+   padding: 20px;
+   width: 50%;
+   height: 100%;
+   background-color: ;
+
+}
+.container2 .left {
+   width: 50%;
+   height: 100%;
+   margin: 50px 50px;
+
+
+ }
+ .container2 .left p {
+
+ text-align: justify;
+ }
+.container .right img{
+	height: 80%;
+	width: 100%;
+	border-radius: 10px
+
+}
+.container .right p{
+	padding: 20px;
+}
+.container2 .right img{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px
+
+}
+.container2 .right p{
+	padding: 20px;
+}
+.container3{
+	height: 1000px;
+	width: 100%;
+	color: green;
+}
+/*code google map*/
+
+iframe{
+	width: 100%;
+
+
+}
+
+
+
+/*code form */
+
+.container3{
+  box-sizing: border-box;
+}
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #ff7b25;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #ff7b25;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #ff7b25;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #ff7b25;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #ff7b25;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+}
+
+
+
+/*code form*/
+
+
+#A .C .button{
+ 
+ margin-right: 5px;
+  width: 10%;
+  height: 10%;
+
+
+}
+#A .C {
+  width: 400px;
+  height: 50px;
+  color: red;
+
+}
+
+
+
+
+
+
+
+.footer footer{
+	background-color: lightgrey;
+	display: flex;
+	justify-content: center;
+}
+.footer footer i{
+	font-size: 50px;
+	margin-left: 120px;
+	text-align: center;
+	text-decoration: bottom;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+
+}
+.footer:hover{
+  background: #ff7b25;
+}
+
+/*
+page2
+*/
+
+}
+/* page3
+*/
+
+
+
+/*nav{
+	
+}
+nav li:hover{
+	background-color: white;
+	text-decoration: none;
+}
+li a{
+	color:black ;
+	text-decoration: none;
+}
+li {
+  color: black;
+  display: inline;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-top: 1px;
+
+  */
